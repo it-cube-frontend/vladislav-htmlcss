@@ -27,4 +27,81 @@ body {
 .main-menu a {
     color: var(--color-black);
     text-decoration: none;
+    font-weight 700;
 }
+
+.main-menu a:hover{
+    color: var(--color-blue)
+}
+
+.main-menu a:active {
+    color: var(--color-black);
+    opacity: 0,3;
+}
+
+.page-menu h1 {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.features h3 {
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 700;
+}
+
+.features ul {
+    list-style: none
+}
+
+.features-list {
+    background-color: var(--color-grey);
+    padding: 0;
+    margin: 0;
+}
+
+.features-with-image {
+    background-color: var(--color-blue);
+    color: var(--color-white)
+}
+
+.search button {
+font-size: 21px;
+line-height: 26px;
+font-weight: 700;
+border: none;
+background-color: var(--color-brown);
+}
+
+.search button:hover {
+color: var(--color-brown-dark) ;
+}
+
+.search button:active {
+color:var(--color-brown-extra-dark) ;
+}
+
+.question{
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.main-footer{
+color: var(--color-black);
+}
+
+.main-footer p {
+   font-size: 21px; 
+   line-height: 26px;
+   font-weight: 700;
+}
+.main-footer ul {
+    list-style: none;
+}
+
+.main-footer .website-by {
+    font-size: 14px;
+    font-weight: 400;
+  }
