@@ -10,15 +10,15 @@
     --color-brown-extra-dark: #503E33;
     --color-grey: #EEEEEE;
     --color-grey2: #F2F2F2;
-    
+
 }
 body {
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     line-height: 21px;
     color: var(--color-black-lite);
-    background-color: var(--color-white) 
-    
+    background-color: var(--color-white)
+
 }
 .main-menu{
     list-style: none;
@@ -46,9 +46,9 @@ body {
 }
 
 .features h3 {
-    font-size: 21px;
-    line-height: 21px;
-    font-weight: 700;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
 }
 
 .features ul {
@@ -56,9 +56,9 @@ body {
 }
 
 .features-list {
-    background-color: var(--color-grey);
-    padding: 0;
-    margin: 0;
+  background-color: var(--color-grey);
+  padding: 0;
+  margin: 0;
 }
 
 .features-with-image {
@@ -66,26 +66,26 @@ body {
     color: var(--color-white)
 }
 
-.search button {
-font-size: 21px;
-line-height: 26px;
-font-weight: 700;
-border: none;
-background-color: var(--color-brown);
-}
+  .search button {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  border: none;
+  background-color: var(--color-brown);
+  }
 
-.search button:hover {
-color: var(--color-brown-dark) ;
-}
+  .search button:hover {
+  color: var(--color-brown-dark) ;
+  }
 
-.search button:active {
-color:var(--color-brown-extra-dark) ;
-}
+  .search button:active {
+  color:var(--color-brown-extra-dark) ;
+  }
 
 .question{
-    font-size: 30px;
-    line-height: 24px;
-    font-weight: 700;
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 700;
 }
 
 .main-footer{
@@ -93,7 +93,7 @@ color: var(--color-black);
 }
 
 .main-footer p {
-   font-size: 21px; 
+   font-size: 21px;
    line-height: 26px;
    font-weight: 700;
 }
@@ -102,6 +102,9 @@ color: var(--color-black);
 }
 
 .main-footer .website-by {
-    font-size: 14px;
-    font-weight: 400;
-  }
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/*style hotels*/
+
