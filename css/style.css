@@ -108,3 +108,62 @@ color: var(--color-black);
 
 /*style hotels*/
 
+.sort p {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.sort {
+  color: var(--color-black)
+}
+
+.sort  {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  list-style: none;
+}
+
+.detailed{
+  font-size: 14px;
+  color: var(--color-white);
+  line-height: 21px;
+  font-weight: 700;
+  border: none;
+  background-color: var(--color-blue);
+}
+
+.detailed:hover {
+  color: var(--color-white);
+  background: var(--color-blue-dark)
+}
+
+.detailed:active {
+  color: var(--color-white);
+  background: var(--color-blue-extra-dark)
+}
+
+
+.reserve{
+  font-size: 14px;
+  color: var(--color-white);
+  line-height: 21px;
+  font-weight: 700;
+  border: none;
+  background-color: var(--color-brown);
+}
+
+.reserve:hover{
+  color: var(--color-white);
+  background-color:var(--color-brown-dark) ;
+}
+
+.reserve:active{
+  color: var(--color-white);
+  background-color:var(--color-brown-dark) ;
+}
+
+.found-hotels{
+  list-style: none;
+}
