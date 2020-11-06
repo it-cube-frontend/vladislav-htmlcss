@@ -27,7 +27,7 @@ body {
 .main-menu a {
     color: var(--color-black);
     text-decoration: none;
-    font-weight 700;
+    font-weight: 700;
 }
 
 .main-menu a:hover{
@@ -71,6 +71,7 @@ body {
   line-height: 26px;
   font-weight: 700;
   border: none;
+  color: var(--color-white);
   background-color: var(--color-brown);
   }
 
@@ -115,7 +116,9 @@ color: var(--color-black);
 }
 
 .sort {
-  color: var(--color-black)
+  color: var(--color-black);
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .sort  {
@@ -166,4 +169,20 @@ color: var(--color-black);
 
 .found-hotels{
   list-style: none;
- }
+}
+
+.found-hotels h3 {
+  text-transform: uppercase;
+}
+.website-by {
+  text-transform: uppercase;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  …
+}
