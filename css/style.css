@@ -184,5 +184,27 @@ color: var(--color-black);
   width: 1px;
   height: 1px;
   margin: -1px;
-  …
+}
+
+.ssilki a{
+  color: var(--color-black);
+  text-decoration: none;
+  list-style: none;
+}
+
+.ssilki a:hover {
+  color: var(--color-blue);
+  text-decoration: none;
+  list-style: none;
+}
+
+.ssilki a:active{
+  color: var(--color-black);
+  opacity: 0.3;
+  text-decoration: none;
+  list-style: none;
+}
+
+.main-ssilki{
+  list-style: none;
 }
